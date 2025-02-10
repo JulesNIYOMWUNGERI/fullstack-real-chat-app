@@ -1,0 +1,13 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && yarn install && yarn build",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
